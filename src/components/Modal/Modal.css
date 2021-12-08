@@ -1,0 +1,83 @@
+.overlay {
+  
+    position: fixed;
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    overflow:auto;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4); 
+
+
+  
+    cursor: pointer;
+  }
+
+  .content {
+  
+    
+        margin:0 auto;
+        top:5rem;
+       background-color:white;
+
+        
+        border-radius: 0.25rem;
+        width: 40% ;
+        
+        position: relative;
+       
+        border-radius: 5px;
+        overflow: auto; 
+       padding: none;
+        
+  }
+
+
+ 
+
+  
+  
+  .fa-times{
+    color: #3474eb;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.8rem;
+    
+  }
+  .btn{
+      text-decoration: none;
+  display: inline-block;
+  background:  #3474eb;
+  border-radius:5px;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 14px;
+  border:none;
+  transition: 500ms ease-in-out;
+  }
+  .btn:hover {
+    background:#2b5d9e; 
+  }
+  
+
+  @media screen and (max-width: 768px) {
+  
+
+  .content{
+    width:90%;
+    
+  }
+
+  .fa-times{
+    color:#3474eb;
+  
+    }
+  }
+
+
